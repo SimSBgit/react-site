@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flexbox {
+  background-color: beige;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  margin: 10px;
+}
