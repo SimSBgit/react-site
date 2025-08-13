@@ -1,0 +1,37 @@
+.bg-green {
+    background-color: lightgreen
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    background-color: antiquewhite;
+}
+
+.btn:hover {
+    border-color: antiquewhite;
+}
+.container {
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    gap: 6px 6px;
+}
+.aaa {
+    color: white;
+    width: 60px;
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+
+}
+
+.bbb {
+    color: white;
+    width: 126px;
+    height: 80px;
+    background-color: black;
+    line-height:80px;
+}

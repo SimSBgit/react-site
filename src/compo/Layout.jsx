@@ -7,13 +7,19 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/react-site/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/react-site/login/">Login</Link>
+            <Link to="login">Login</Link>
           </li>    
           <li>
-            <Link to="/react-site/Mywork/">Mywork</Link>
+            <Link to="work0808">Work0808</Link>
+          </li>    
+          <li>
+            <Link to="work0811">Work0811</Link>
+          </li>    
+          <li>
+            <Link to="work0812">Work0812</Link>
           </li>    
         </ul>
       </nav>

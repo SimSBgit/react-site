@@ -1,26 +1,30 @@
-import { BrowserRouter, HashRouter, Routes } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 // import { useState } from "react";
 import "./App.css";
 import Login from "./compo/Login";
 import Home from "./compo/Home";
 import Layout from "./compo/Layout";
-import Mywork from "./compo/Mywork";
+import Work0808 from './compo/Work0808';
+import Work0811 from './compo/Work0811';
+import Work0812 from './compo/Work0812';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>과제방</h1>
-      <BrowserRouter>
+      <HashRouter>
+        <h1>과제방</h1>
         <Routes>
-          <Route path="/react-site/" element={<Layout />} />
-          <Route index element={<Home />} />
-          <Route path="/react-site/login/" element={<Login />} />
-          <Route path="/react-site/Mywork/" element={<Mywork />} />
+          <Route path="/" element={<Layout />} >
+            <Route index element={<Home />} />
+            <Route path="login" element={<Login />} />
+            <Route path="work0808" element={<Work0808 />} />
+            <Route path="work0811" element={<Work0811 />} />
+            <Route path="work0812" element={<Work0812 />} />
+          </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
