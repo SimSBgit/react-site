@@ -124,7 +124,7 @@ Hook은 리액트의 함수 컴포넌트의 흐름에 끼어들어서 다양한 
     :not(:last-child) {
         margin-bottom: 16px;
     }
-`;function Jx(a){const i=vc();return h.jsx(Kx,{children:h.jsxs(kx,{children:[h.jsx(hc,{title:"글 작성하기",onClick:()=>{i("/post-write")}}),h.jsx(Zx,{posts:x0,onClickItem:r=>{i(`/post/${r.id}`)}})]})})}const $x=Bt.textarea`
+`;function Jx(a){const i=vc();return h.jsx(Kx,{children:h.jsxs(kx,{children:[h.jsx(hc,{title:"글 작성하기",onClick:()=>{i("post-write")}}),h.jsx(Zx,{posts:x0,onClickItem:r=>{i(`post/${r.id}`)}})]})})}const $x=Bt.textarea`
     width: calc(100% - 32px);
     ${a=>a.height&&`
         height: ${a.height}px;
