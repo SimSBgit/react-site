@@ -27,6 +27,12 @@ function Layout() {
           <li>
             <Link to="work0814">Work0814</Link>
           </li>  
+          <li>
+            <Link to="work0818">Work0818</Link>
+          </li>  
+          <li>
+            <Link to="miniblog">MiniBlog</Link>
+          </li>  
         </ul>
       </nav>
       <Outlet></Outlet>

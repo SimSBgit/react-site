@@ -9,7 +9,8 @@ import Work0811 from './compo/Work0811';
 import Work0812 from './compo/Work0812';
 import Work0813 from "./compo/Work0813";
 import Work0814 from "./compo/Work0814";
-import Work0818 from './compo/Work0818'
+import Work0818 from './compo/Work0818';
+import MiniBlog from './compo/MiniBlog'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ function App() {
             <Route path="work0813" element={<Work0813 />} />
             <Route path="work0814" element={<Work0814 />} />
             <Route path="work0818" element={<Work0818 />} />
+            <Route path="miniblog/*" element={<MiniBlog />} />
           </Route>
         </Routes>
       </HashRouter>
