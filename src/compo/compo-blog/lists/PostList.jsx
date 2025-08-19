@@ -18,7 +18,8 @@ function PostList(props) {
 
     return (
         <Wrapper>
-            {posts.map((post, index) => {
+            {posts.map(
+                (post, index) => {
                 return (
                     <PostListItem 
                     key={post.id}
@@ -28,7 +29,8 @@ function PostList(props) {
                     }}
                     />
                 )
-            })}
+            })
+            }
         </Wrapper>
     )
 }

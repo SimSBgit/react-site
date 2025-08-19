@@ -31,6 +31,9 @@ function Layout() {
             <Link to="work0818">Work0818</Link>
           </li>  
           <li>
+            <Link to="work0819">Work0819</Link>
+          </li>  
+          <li>
             <Link to="miniblog">MiniBlog</Link>
           </li>  
         </ul>

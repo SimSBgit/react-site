@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './compo-blog/pages/MainPage'
 import PostWritePage from './compo-blog/pages/PostWritePage';
 import PostViewPage from './compo-blog/pages/PostViewPage';
